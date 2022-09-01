@@ -1,0 +1,64 @@
+.advantages_container {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.advantages {
+  display: grid;
+  justify-content: center;
+  gap: 4rem;
+  align-items: center;
+  grid-template-columns: repeat(3, 1fr);
+  width: 100%;
+  height: 100%;
+  max-height: 40rem;
+}
+.advantages .advantages_card {
+  max-width: 36rem;
+  max-height: 18rem;
+  display: grid;
+  grid-auto-flow: column;
+}
+.advantages .advantages_card_icon {
+  width: 4.5rem;
+  height: 4.5rem;
+  margin-right: 2.4rem;
+}
+.advantages .advantages_card_title {
+  margin: 1.3rem 0 1.5rem 0;
+  font-weight: 700;
+  font-size: 1.9rem;
+  line-height: 2.3rem;
+  color: #425844;
+}
+.advantages .advantages_card_description {
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 113%;
+  color: #425844;
+}
+.advantages .advantages_card .steam {
+  background: url(../img/cards/steam2.svg);
+  background-size: cover;
+}
+.advantages .advantages_card .cup {
+  background: url(../img/cards/cup.svg);
+  background-size: cover;
+}
+.advantages .advantages_card .headphones {
+  background: url(../img/cards/headphones.svg);
+  background-size: cover;
+}
+.advantages .advantages_card .earth {
+  background: url(../img/cards/earth.svg);
+  background-size: cover;
+}
+.advantages .advantages_card .dialog {
+  background: url(../img/cards/dialog.svg);
+  background-size: cover;
+}
+.advantages .advantages_card .cart {
+  background: url(../img/cards/cart.svg);
+  background-size: cover;
+}/*# sourceMappingURL=advantages.css.map */

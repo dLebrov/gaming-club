@@ -7,7 +7,7 @@
   position: fixed;
   background: #425844;
   width: 8rem;
-  height: 100vh;
+  height: 100%;
 }
 .menu .burger_container {
   display: grid;
