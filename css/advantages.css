@@ -2,6 +2,8 @@
   display: grid;
   justify-content: center;
   align-items: center;
+  padding: 15rem 10rem;
+  box-sizing: border-box;
 }
 
 .advantages {
