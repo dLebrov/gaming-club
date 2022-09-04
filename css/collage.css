@@ -1,0 +1,70 @@
+.collage {
+  background: #101D2C;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(7, 5vw);
+  grid-gap: 1.5rem;
+  padding: 1.5rem;
+  box-sizing: border-box;
+}
+.collage_item_1 {
+  grid-column: 1/3;
+  grid-row: 1/3;
+}
+.collage_item_2 {
+  grid-column: 3/span 3;
+  grid-row: 1/span 3;
+}
+.collage_item_3 {
+  grid-column: 6/span 1;
+  grid-row: 1/span 2;
+}
+.collage_item_4 {
+  grid-column: 7/-1;
+  grid-row: 1/span 2;
+}
+.collage_item_5 {
+  grid-column: 1/span 2;
+  grid-row: 3/span 3;
+}
+.collage_item_6 {
+  grid-column: 3/span 2;
+  grid-row: 4/span 2;
+}
+.collage_item_7 {
+  grid-column: 5/6;
+  grid-row: 4/5;
+}
+.collage_item_8 {
+  grid-column: 6/span 2;
+  grid-row: 3/span 2;
+}
+.collage_item_9 {
+  grid-row: 3/span 3;
+  grid-column: 8/-1;
+}
+.collage_item_10 {
+  grid-row: 6/span 2;
+  grid-column: 1/2;
+}
+.collage_item_11 {
+  grid-row: 6/span 2;
+  grid-column: 2/span 2;
+}
+.collage_item_12 {
+  grid-row: 6/span 2;
+  grid-column: 4/5;
+}
+.collage_item_13 {
+  grid-row: 5/span 3;
+  grid-column: 5/span 3;
+}
+.collage_item_14 {
+  grid-row: 6/span 2;
+  grid-column: 8/-1;
+}
+.collage_img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}/*# sourceMappingURL=collage.css.map */

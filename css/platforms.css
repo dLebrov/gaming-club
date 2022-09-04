@@ -3,7 +3,7 @@
   box-sizing: border-box;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 4rem 5.9rem;
+  grid-gap: 4rem 5.9rem;
 }
 .platforms_card {
   display: grid;
@@ -23,7 +23,7 @@
   background: #101D2C;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 4.5rem 1rem;
+  grid-gap: 4.5rem 1rem;
 }
 .platforms_card_description_name {
   position: absolute;
@@ -61,6 +61,7 @@
   background-size: cover;
 }
 .platforms .platform_button {
+  cursor: pointer;
   font-weight: 700;
   font-size: 1.6rem;
   line-height: 2rem;

@@ -1,0 +1,31 @@
+.footer {
+  margin-top: 0.1rem;
+  background: #101D2C;
+  padding: 8rem 0;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  color: #F5F5F5;
+
+  &_buttons {
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+
+    p {
+      cursor: pointer;
+      margin-right: 3.4rem;
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+
+  }
+
+  img {
+    margin-bottom: 8rem;
+  }
+
+
+}

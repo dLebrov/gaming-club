@@ -9,7 +9,7 @@
 .advantages {
   display: grid;
   justify-content: center;
-  gap: 4rem;
+  grid-gap: 4rem;
   align-items: center;
   grid-template-columns: repeat(3, 1fr);
   width: 100%;

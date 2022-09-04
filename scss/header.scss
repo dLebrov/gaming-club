@@ -101,7 +101,7 @@
   .top_players {
     display: grid;
     grid-auto-flow: row;
-    gap: 4rem 0;
+    grid-gap: 4rem 0;
     max-height: 35rem;
 
     &_title {
